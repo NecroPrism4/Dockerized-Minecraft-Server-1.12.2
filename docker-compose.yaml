@@ -11,5 +11,6 @@ services:
       ['java', '-Xmx8G', '-jar', 'forge-1.12.2-14.23.5.2859.jar', 'nogui']
     ports:
       - '25565:25565'
+      - '25575:25575'
     environment:
       - EULA="TRUE"
